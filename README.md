@@ -1,6 +1,5 @@
 # Docker Basics
 
-
 ## Creating a Dockerfile for a Flask App
 
 In this assignment, you will create a Dockerfile for a small Flask application. Docker allows you to package your application along with its dependencies into a container, making it easy to deploy and run consistently across different environments.
@@ -24,12 +23,11 @@ Congratulations! You have successfully downloaded and installed Docker on your s
 
 ## Step 2: Setting up the project
 
-1. Create a new directory for your project: `mkdir flask-app`
-1. Navigate to the project directory: `cd flask-app`
-1. Create a new file named `app.py` and code for a small flask app. Include the following in your app:
-    * Uses flask to create at least 1 endpoint.
-    * Uses at least 1 pip package in the app
-    * References at least 1 environment variable:
+1. Create a new directory for your project: `mkdir src`
+1. Navigate to the project directory: `cd src`
+1. Create a new file named `app.py` and code for a small app. Include the following in your app:
+    * Uses at least 1 pip package in the app. This can be flask or any other pip package you want to experiment with.
+    * References at least 1 environment variable and uses that variable in the code:
         ```python
         import os
 
@@ -37,6 +35,7 @@ Congratulations! You have successfully downloaded and installed Docker on your s
 
         # Your code here that uses the app_env variable
         ```
+    * Uses python `print()` function to print something interesting to the console.
 
 ## Step 3: Creating the Dockerfile
 
