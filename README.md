@@ -24,8 +24,7 @@ Congratulations! You have successfully downloaded and installed Docker on your s
 ## Step 2: Setting up the project
 
 1. Create a new directory for your project: `mkdir src`
-1. Navigate to the project directory: `cd src`
-1. Create a new file named `app.py` and code for a small app. Include the following in your app:
+1. Create a new file named `app.py` in the `src` directory and code for a small app. Include the following in your app:
     * Uses at least 1 pip package in the app. This can be flask or any other pip package you want to experiment with.
     * References at least 1 environment variable and uses that variable in the code:
         ```python
